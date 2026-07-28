@@ -73,7 +73,7 @@ class Generic extends Provider
         ]);
     }
 
-    public function suggestions(Registration $registration, $user, string $token)
+    public function suggestions(Registration $registration, mixed $user, string $token): void
     {
         /** @var GenericResourceOwner $user */
 
