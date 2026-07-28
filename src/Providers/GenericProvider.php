@@ -179,15 +179,6 @@ class GenericProvider extends AbstractProvider
     {
         return $this->urlAuthorize;
     }
-
-    /**
-     * @inheritdoc
-     */
-    public function pkceEnabled(): bool
-    {
-        // TODO: make this configurable
-        return true;
-    }
     
     /**
      * @inheritdoc
