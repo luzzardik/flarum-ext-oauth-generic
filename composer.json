@@ -1,5 +1,5 @@
 {
-    "name": "blt950/oauth-generic",
+    "name": "luzzardik/flarum-ext-oauth-generic",
     "description": "Generic OAuth2 provider for Flarum",
     "keywords": [
         "flarum"
