@@ -183,6 +183,15 @@ class GenericProvider extends AbstractProvider
     /**
      * @inheritdoc
      */
+    public function pkceEnabled(): bool
+    {
+        // TODO: make this configurable
+        return true;
+    }
+    
+    /**
+     * @inheritdoc
+     */
     public function getBaseAccessTokenUrl(array $params)
     {
         return $this->urlAccessToken;
