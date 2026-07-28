@@ -99,4 +99,15 @@ class Generic extends Provider
 
         $registrationBuilder->setPayload($user->toArray());
     }
+
+    
+
+    /**
+     * @inheritdoc
+     */
+    public function pkceEnabled(): bool
+    {
+        // TODO: make this configurable
+        return true;
+    }
 }
